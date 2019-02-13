@@ -1,0 +1,36 @@
+body {
+ background-image: url("file:///Users/touche/Downloads/JSdrumkit-files/images/bg.png");
+ background-size: 1800px 1000px;
+}
+#grid-container {
+
+display: grid;
+align-items: center;
+grid-template-columns: 1fr;
+}
+li {
+    display: inline;
+    border-style: solid;
+    padding: 10px;
+    font-size: 26px;
+    background-color: transparent;
+    
+    
+}
+
+li:hover {
+    color: brown; 
+    
+
+
+} 
+#keys {
+    text-decoration: none;
+    font-size: 166px;
+    background-color: gray;
+    text-align: center center;
+    margin: auto;
+  width: 50%;
+  border: 3px solid green;
+  padding: 10px;
+}
